@@ -1,3 +1,3 @@
 language: c
-script: cmake
+script: cmake --build ./build --target samframework -- -j 4
 compiler: gcc
